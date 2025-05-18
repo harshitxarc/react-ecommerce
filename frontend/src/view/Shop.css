@@ -1,0 +1,76 @@
+/* Main Banner Section */
+.shop-banner {
+    height: 30vh;
+    min-height: 250px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding: 5rem 2rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.shop-banner-content h1 {
+    font-size: 3rem;
+    margin: 0 0 10px;
+    line-height: 1.2;
+}
+
+.shop-banner-content p {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+/* Shop Content Below Banner */
+.shop-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.shop-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .shop-banner-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .shop-banner-content p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .shop-banner {
+        height: 40vh;
+        padding: 0 15px;
+    }
+
+    .shop-banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .shop-banner-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .shop-banner {
+        height: 35vh;
+    }
+
+    .shop-banner-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .shop-banner-content p {
+        font-size: 0.95rem;
+    }
+}
