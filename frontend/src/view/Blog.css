@@ -1,0 +1,151 @@
+/* Banner/Header Section */
+.blog-header {
+    height: 30vh;
+    min-height: 250px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding: 5rem 2rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-header h2,
+.blog-header p {
+    position: relative;
+    z-index: 2;
+
+}
+
+.blog-header h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.blog-header p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Blog Container */
+#Blog-Page {
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #f8f8f8;
+}
+
+/* Blog Box */
+.blog-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.blog-box:hover {
+    transform: translateY(-5px);
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    object-fit: cover;
+}
+
+.blog-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-details h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blog-details p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.blog-details a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    width: fit-content;
+    transition: 0.3s;
+}
+
+.blog-details a:hover {
+    border-color: #000;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .blog-header h2 {
+        font-size: 2.5rem;
+    }
+
+    .blog-header p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-box {
+        flex-direction: column;
+    }
+
+    .blog-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .blog-details {
+        padding: 15px;
+    }
+
+    .blog-header h2 {
+        font-size: 2rem;
+    }
+
+    .blog-header p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-header {
+        padding: 60px 15px;
+    }
+
+    .blog-header h2 {
+        font-size: 1.6rem;
+    }
+
+    .blog-header p {
+        font-size: 0.95rem;
+    }
+
+    .blog-details h4 {
+        font-size: 1.2rem;
+    }
+
+    .blog-details p {
+        font-size: 0.95rem;
+    }
+}

@@ -1,0 +1,168 @@
+/* Navbar Container */
+.nav-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.nav-bar-logo .logo {
+    width: 180px;
+}
+
+/* Hamburger Button */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+}
+
+.menu-toggle span {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+/* Nav Links */
+.Nav-Bar-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.Nav-Bar-links li {
+    margin-left: 30px;
+}
+
+.Nav-Bar-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px;
+}
+
+.Nav-Bar-links a:hover {
+    color: #45596e;
+    transition: color 0.3s ease;
+}
+
+#lg-bag {
+    font-size: 20px;
+}
+
+#signin {
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+
+#signin:hover {
+    color: #f0a500;
+}
+
+/* Mobile Menu (open state) */
+.Nav-Bar-links.open {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    padding: 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Nav-Bar-links.open li {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.Nav-Bar-links.open a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.Nav-Bar-links.open a:hover {
+    color: #f0a500;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .Nav-Bar-links {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        background-color: #000;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+
+    .Nav-Bar-links.open {
+        display: flex;
+    }
+
+    .Nav-Bar-links li {
+        margin: 0;
+    }
+
+    .Nav-Bar-links a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .nav-bar-header {
+        padding: 15px 20px;
+    }
+
+    .nav-bar-logo .logo {
+        width: 150px;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-bar-header {
+        padding: 10px 15px;
+    }
+
+    .menu-toggle span {
+        height: 3px;
+    }
+
+    .Nav-Bar-links.open a {
+        font-size: 16px;
+    }
+}
+
+/* Ensure next content has no unwanted margin */
+main,
+section,
+.home-section {
+    margin-top: 0;
+    padding-top: 0;
+}

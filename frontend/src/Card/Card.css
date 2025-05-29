@@ -1,0 +1,97 @@
+/* Container for all cards */
+.main-Card-Products {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+    justify-content: space-evenly    ;
+    padding: 24px;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+/* Each individual card */
+.main-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Product image */
+.main-card-image {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    display: block;
+}
+
+/* Card content */
+.main-card-information {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main-card-information h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+}
+
+.main-card-information p {
+    font-size: 0.95rem;
+    margin: 0;
+    color: #666;
+}
+
+.main-Card-price {
+    font-weight: bold;
+    color: #e53935;
+    font-size: 1rem;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .main-card-information {
+        padding: 12px;
+    }
+
+    .main-card-information h3 {
+        font-size: 1.1rem;
+    }
+
+    .main-Card-price {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-card {
+        border-radius: 8px;
+    }
+
+    .main-card-information {
+        padding: 10px;
+    }
+
+    .main-card-information h3 {
+        font-size: 1rem;
+    }
+
+    .main-card-information p,
+    .main-Card-price {
+        font-size: 0.9rem;
+    }
+}

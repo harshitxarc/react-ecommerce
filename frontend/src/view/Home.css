@@ -1,0 +1,287 @@
+/* Main Banner */
+.section-main-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem 4rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.section-main-banner h1 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.section-main-banner h2 {
+    font-size: clamp(1.3rem, 4vw, 2rem);
+    margin: 0.5rem 0;
+}
+
+.section-main-banner p {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    margin-top: 1rem;
+}
+
+.shop-button {
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    font-size: 1rem; /* fixed size */
+    width: auto; /* prevents full width */
+    max-width: none; /* avoid any unintentional limit */
+    white-space: nowrap;
+}
+
+
+.shop-button:hover {
+    background-color: #444;
+}
+
+.shoplink {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Benefits Section */
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 60px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.Home-Page-feature-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Home-Page-feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.Home-Page-feature-box img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.Home-Page-feature-box h6 {
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+/* Banner1 */
+.banner1 {
+    position: relative;
+    padding: 3rem 2rem;
+    text-align: center;
+    color: white;
+    /* background: linear-gradient(to right, rgba(37, 62, 87, 0.5), rgba(255, 204, 102, 0.5)); */
+    background: linear-gradient(90deg, #2E4156 0%, #AAB7B7 100%);
+}
+
+
+.banner1 h2 {
+    font-size: clamp(1.3rem, 4vw, 2rem);
+    margin: 1rem 0;
+    z-index: 2;
+    position: relative;
+}
+.banner1 h4 {
+    font-size: clamp(1.3rem, 4vw, 2rem);
+    margin: 1rem 0;
+    z-index: 2;
+    position: relative;
+}
+
+.banner1 span {
+    color: #1A2D42;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+}
+
+.banner-button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #000000d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+    width: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-button:hover {
+    background-color: #0000009a;
+}
+
+.banner-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Home-shop-content */
+.Home-shop-content {
+    text-align: center;
+}
+
+.Home-shop-content h2 {
+    width: 100%;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+    font-size: clamp(1.8rem, 6vw, 2.5rem);
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 2rem;
+}
+
+/* Banner2 */
+.banner2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    padding: 3rem 2rem;
+    flex-wrap: nowrap;
+}
+
+.banner2-box1,
+.banner2-box2 {
+    flex: 1 1 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 300px;
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.banner2-box1 h2,
+.banner2-box2 h2 {
+    margin: 0.5rem 0;
+}
+
+.banner2 .banner-button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+    width: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+}
+
+.banner2 .banner-button:hover {
+    background-color: #444;
+}
+
+
+/* Banner3 */
+.banner3 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+}
+
+.banner3-box1,
+.banner3-box2,
+.banner3-box3 {
+    flex: 1 1 20%;
+    height: 250px;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .section-main-banner h1 {
+        font-size: clamp(1.8rem, 6vw, 2.2rem);
+        /* background-size: cover; */
+    } 
+
+    .section-main-banner h2 {
+        font-size: clamp(1.3rem, 5vw, 1.6rem);
+    }
+
+    .banner2,
+    .banner3 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .banner2-box1,
+    .banner2-box2,
+    .banner3-box1,
+    .banner3-box2,
+    .banner3-box3 {
+        flex: 1 1 100%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-main-banner {
+        padding: 2rem 1rem;
+        /* background-size: cover; */
+    }
+
+    .banner-button,
+    .shop-button,
+    .banner2 .banner-button {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.85rem;
+    }
+}

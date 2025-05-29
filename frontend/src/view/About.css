@@ -1,0 +1,252 @@
+/* About.css */
+.about-header {
+    height: 30vh;
+    min-height: 250px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding: 5rem 2rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.about-header h2,
+.about-header p {
+    position: relative;
+    z-index: 2;
+
+}
+
+.about-header h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About Info Section */
+.about-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-info img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.about-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-info h3 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.about-info p {
+    font-size: 1rem;
+    color: #34495e;
+}
+
+.about-info marquee {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+/* Features Section */
+#about-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 60px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.About-feature-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.About-feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.About-feature-box img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.About-feature-box h6 {
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+/* Team Section */
+.about-team {
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    /* text-align: center;
+    align-items: center; */
+}
+
+.about-team h3 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    align-items: center;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.team-member h5 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+    .about-info {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .about-info img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .about-info div {
+        text-align: center;
+    }
+
+    #about-features {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .team-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .about-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-header p {
+        font-size: 1rem;
+    }
+
+    .about-info h3 {
+        font-size: 1.6rem;
+    }
+
+    .about-info p {
+        font-size: 1rem;
+    }
+
+    .About-feature-box h6 {
+        font-size: 1rem;
+    }
+
+    .team-member h5 {
+        font-size: 1.1rem;
+    }
+
+    .team-member p {
+        font-size: 0.9rem;
+    }
+
+    .team-member img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-header h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-header p {
+        font-size: 0.9rem;
+    }
+
+    .about-info h3 {
+        font-size: 1.4rem;
+    }
+
+    .about-info p {
+        font-size: 0.9rem;
+    }
+
+    .About-feature-box h6 {
+        font-size: 0.9rem;
+    }
+
+    .team-member h5 {
+        font-size: 1rem;
+    }
+
+    .team-member p {
+        font-size: 0.8rem;
+    }
+
+    .team-member img {
+        width: 120px;
+        height: 120px;
+    }
+}

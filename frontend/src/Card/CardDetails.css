@@ -1,0 +1,201 @@
+/* CardDetails.css */
+
+.Card-Details-Page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 32px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Image Section */
+.Card-details-image {
+    width: auto;
+    height: 80vh;
+    border-radius: 10px;
+    /* aspect-ratio: 3 / 4; */
+    display: block;
+}
+
+/* Info Section */
+.Card-details-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 10px;
+}
+    
+.Card-details-info h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: #333;
+}
+
+.card-details-company {
+    font-style: italic;
+    color: #666;
+    font-size: 1rem;
+}
+
+.card-deatils-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e53935;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+/* Color Selection */
+.Card-Details-coloroption .color-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.color-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.color-btn.selected {
+    border-color: #333;
+}
+
+/* Size & Quantity */
+.Card-Details-Size-Selection select,
+.Card-Details-Quantity-Selection input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    max-width: 160px;
+}
+
+/* Description & Offers */
+.Card-Details-Desc p,
+.Card-Details-special-offers li {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.Card-Details-special-offers ul {
+    padding-left: 20px;
+}
+
+/* Buttons */
+.Card-add-to-cart-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content;
+    transition: background 0.3s ease;
+}
+
+.Card-add-to-cart-btn:hover {
+    background-color: #0056b3;
+}
+
+.Card-back-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.Card-back-link:hover {
+    text-decoration: underline;
+}
+
+/* ------------------ Responsive ------------------ */
+
+@media (max-width: 1024px) {
+    .Card-Details-Page {
+        grid-template-columns: 1fr;
+        padding: 24px;
+    }
+
+    .Card-details-image {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .Card-details-info {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .Card-details-info h2 {
+        font-size: 1.6rem;
+    }
+    
+
+    .card-deatils-price {
+        font-size: 1.2rem;
+    }
+
+    .color-btn {
+        width: 26px;
+        height: 26px;
+    }
+
+    .Card-add-to-cart-btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Card-Details-Page {
+        padding: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Card-details-image {
+        max-width: auto;
+        height: 60vh;
+        margin: auto;
+    }
+
+    .Card-details-info h2 {
+        font-size: 1.4rem;
+    }
+
+    .card-details-company,
+    .card-deatils-price,
+    .Card-Details-Desc p,
+    .Card-Details-special-offers li {
+        font-size: 0.95rem;
+    }
+
+    .Card-back-link {
+        text-align: center;
+        margin: 20px auto 0;
+    }
+
+    .Card-Details-Size-Selection select,
+    .Card-Details-Quantity-Selection input {
+        width: 100%;
+        max-width: none;
+    }
+}
