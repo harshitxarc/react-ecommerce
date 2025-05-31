@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import './NavBar.css';
+import './Navbar.css';
 
 function NavBar() {
   const [status, setStatus] = useState(false);
