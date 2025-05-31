@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import products1 from '../data1'; // Make sure the file name is correct
+import products1 from '../Data1.js'; // Make sure the file name is correct
 import './CardDetails.css';
 
 const CardDetails1 = () => {

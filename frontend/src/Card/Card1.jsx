@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import productdata from '../data1'; // Make sure this is the correct path to your data file
+import productdata from '../Data1.js'; // Make sure this is the correct path to your data file
 import './Card.css';
 
 const Card1 = () => {
