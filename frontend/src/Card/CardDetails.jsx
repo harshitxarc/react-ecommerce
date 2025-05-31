@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import products from '../Data';
+import products from '../Data.js';
 import './CardDetails.css';
 
 const CardDetails = () => {
