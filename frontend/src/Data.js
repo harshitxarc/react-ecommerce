@@ -5,7 +5,7 @@ const products = [
         title: "LEATHER EFFECT JACKET",
         image: "/Products/f1.jpg",
         company: "FashionCo",
-        price: "@49.99",
+        price: "$49.99",
         description: "Leather-effect jacket. Elasticated ribbed collar and long sleeves.",
         colors: ["#000000", "brown"],
         sizes: ["S", "M", "L", "XL"],
