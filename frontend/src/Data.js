@@ -46,7 +46,7 @@ const products = [
     },
     {
         id: 5,
-        title: "FIT FLOWING SHIRT",
+        title: "FIT FLOWING-EFFECT SHIRT",
         image: "/Products/f5.jpg",
         company: "FashionCo",
         price: "$49.99",
