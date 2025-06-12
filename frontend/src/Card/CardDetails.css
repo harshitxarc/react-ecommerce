@@ -42,10 +42,10 @@
     font-size: 1rem;
 }
 
-.card-deatils-price {
+.card-details-price {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #e53935;
+    color: #000000;
 }
 
 label {

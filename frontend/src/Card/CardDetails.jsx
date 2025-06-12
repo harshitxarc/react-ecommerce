@@ -58,7 +58,7 @@ const CardDetails = () => {
             <div className="Card-details-info">
                 <h2>{product.title}</h2>
                 <p className="card-details-company">By {product.company}</p>
-                <p className="card-deatils-price">₹{product.price}</p>
+                <p className="card-details-price">{product.price}</p>
 
                 <div className="Card-Details-coloroption">
                     <label>Color:</label>
