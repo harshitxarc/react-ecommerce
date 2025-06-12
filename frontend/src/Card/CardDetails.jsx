@@ -9,7 +9,7 @@ const CardDetails = () => {
 
     const [selectedColor, setSelectedColor] = useState(product.colors[0]);
     const [selectedSize, setSelectedSize] = useState(product.sizes[0]);
-    const [quantity, setQuantity] = useState();
+    const [quantity, setQuantity] = useState(1);
     const [confirmation, setConfirmation] = useState('');
 
     if (!product) return <div>Product not found.</div>;
@@ -87,10 +87,10 @@ const CardDetails = () => {
                     <label>Quantity: </label>
                     <input
                         type="number"
-                        value={quantity || 1}
+                        value={quantity}
                         min={1}
                         max={10}
-                        onChange={(e) => setQuantity(e.target.value)}
+                        onChange={(e) => setQuantity(Number(e.target.value))}
                     />
                 </div>
 
