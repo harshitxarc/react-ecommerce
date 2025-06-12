@@ -87,7 +87,7 @@ const CardDetails = () => {
                     <label>Quantity: </label>
                     <input
                         type="number"
-                        value={quantity}
+                        value={quantity || 1}
                         min={1}
                         max={10}
                         onChange={(e) => setQuantity(e.target.value)}
