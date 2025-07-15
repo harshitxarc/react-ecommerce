@@ -10,16 +10,37 @@
 
 ## 🚀 Features
 
-- 📝 **User Signup & Login**
-- 🛒 **E-Commerce Core Functionality**
-- 📦 **Product & Category Management**
-- 🛍️ **Shopping Cart Functionality**
-- 🏷️ **Coupon Code System**
-- 🎨 **Responsive UI**
-- 🧾 **Cart & Checkout Process**
-- 🔐 **Authentication with JWT**
-- 💽 **MongoDB for Product & User Data**
-- ⚙️ **Node.js & Express.js Backend API**
+
+- 📝 **User Authentication**  
+  Secure user registration and login system using JWT.
+
+- 🛒 **Complete E-Commerce Functionality**  
+  Browse, filter, and interact with a modern storefront.
+
+- 📦 **Product & Category Management**  
+  Easily add, update, and organize products under categories.
+
+- 🛍️ **Interactive Shopping Cart**  
+  Add, remove, and update product quantities with real-time pricing.
+
+- 🏷️ **Coupon & Discount Code Support**  
+  Apply promo codes for instant price reductions at checkout.
+
+- 🎨 **Fully Responsive UI**  
+  Optimized for seamless use on desktop, tablet, and mobile.
+
+- 🧾 **Streamlined Checkout Process**  
+  Simple and intuitive order review and confirmation flow.
+
+- 🔐 **JWT-Based Secure Authentication**  
+  Robust login sessions with token-based protection.
+
+- 💽 **MongoDB Integration**  
+  Store and manage user, product, and order data in a scalable NoSQL database.
+
+- ⚙️ **Express.js + Node.js Backend API**  
+  RESTful backend architecture for clean data handling and routing.
+
 - ⌛ **And a lot more...**
 
 ---
