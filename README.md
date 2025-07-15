@@ -1,8 +1,8 @@
-# Veyra – Luxury Sneaker & Fashion E-Commerce Store 🛒
+# Veyra – Luxury Fashion E-Commerce Store 🛒
 
 ![Main Banner](/frontend/public/main.png)
 
-**Veyra** is a premium, sleek, and responsive fashion e-commerce website built using **HTML, CSS, JavaScript**, and powered by **React** and **Tailwind CSS**. Designed to deliver a luxurious user experience, Veyra offers a seamless shopping journey, from product discovery to checkout.
+**Veyra** is a stylish, responsive, and full-featured **e-commerce web application** designed for a luxury clothing brand. Built using the **MERN Stack (MongoDB, Express.js, React, Node.js)**. Designed to deliver a luxurious user experience, Veyra offers a seamless shopping journey, from product discovery to checkout.
 
 🔗 **Live Site**: [veyraa.vercel.app](https://veyraa.vercel.app)
 
@@ -25,9 +25,6 @@
 - 💸 **Coupon Code System**
   - Apply discounts to enhance user engagement
 
-- 🎨 **Modern UI with Tailwind CSS**
-  - Clean and premium layout with smooth interactions
-
 - 🧾 **Cart & Checkout Process**
   - Simple and intuitive flow from cart to order summary
 
@@ -40,14 +37,18 @@
 
 > A complete **React-based e-commerce store** with a professional frontend and practical shopping features. Great for learning full-stack concepts with a focus on frontend design and UX.
 
-### 🔧 Tech Stack:
-- React JS
-- Tailwind CSS
-- JavaScript (ES6+)
-- HTML5 & CSS3
-- React Router
-- Vite
-- (Optional backend: Node.js, Express, MongoDB – not included in this version)
+---
+
+## ⚙️ Tech Stack
+
+| Tech       | Description                     |
+|------------|---------------------------------|
+| React.js   | Frontend Framework (Vite setup) |
+| Node.js    | Backend Runtime Environment     |
+| Express.js | RESTful API server              |
+| MongoDB    | NoSQL Database                  |
+| Mongoose   | MongoDB ODM                     |
+| JWT/Auth   | Secure user login/session       |
 
 ---
 
