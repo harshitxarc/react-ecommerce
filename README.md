@@ -10,26 +10,17 @@
 
 ## 🚀 Features
 
-- 🔐 **User Authentication**
-  - Signup and Login system
-
-- 🛍️ **E-Commerce Core**
-  - Full-fledged shopping experience with product listing, cart, and checkout
-
+- 📝 **User Signup & Login**
+- 🛒 **E-Commerce Core Functionality**
 - 📦 **Product & Category Management**
-  - Organized display of fashion items with detailed view
-
-- 🛒 **Shopping Cart Functionality**
-  - Add/remove items, quantity update, and real-time total calculation
-
-- 💸 **Coupon Code System**
-  - Apply discounts to enhance user engagement
-
+- 🛍️ **Shopping Cart Functionality**
+- 🏷️ **Coupon Code System**
+- 🎨 **Responsive UI**
 - 🧾 **Cart & Checkout Process**
-  - Simple and intuitive flow from cart to order summary
-
-- 📱 **Responsive Design**
-  - Fully optimized for mobile, tablet, and desktop
+- 🔐 **Authentication with JWT**
+- 💽 **MongoDB for Product & User Data**
+- ⚙️ **Node.js & Express.js Backend API**
+- ⌛ **And a lot more...**
 
 ---
 
