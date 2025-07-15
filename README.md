@@ -10,37 +10,36 @@
 
 ## 🚀 Features
 
+- 🔐 **User Authentication**  
+  - Secure user registration and login system using JWT.
 
-- 📝 **User Authentication**  
-  Secure user registration and login system using JWT.
-
-- 🛒 **Complete E-Commerce Functionality**  
-  Browse, filter, and interact with a modern storefront.
+- 🛍️ **E-Commerce Core**
+  - Full-fledged shopping experience with product listing, cart, and checkout
 
 - 📦 **Product & Category Management**  
-  Easily add, update, and organize products under categories.
+  - Easily add, update, and organize products under categories.
 
 - 🛍️ **Interactive Shopping Cart**  
-  Add, remove, and update product quantities with real-time pricing.
+  - Add, remove, and update product quantities with real-time pricing.
 
 - 🏷️ **Coupon & Discount Code Support**  
-  Apply promo codes for instant price reductions at checkout.
+  - Apply promo codes for instant price reductions at checkout.
 
 - 🎨 **Fully Responsive UI**  
-  Optimized for seamless use on desktop, tablet, and mobile.
+  - Optimized for seamless use on desktop, tablet, and mobile.
 
 - 🧾 **Streamlined Checkout Process**  
-  Simple and intuitive order review and confirmation flow.
+  - Simple and intuitive order review and confirmation flow.
 
 - 🔐 **JWT-Based Secure Authentication**  
-  Robust login sessions with token-based protection.
+  - Robust login sessions with token-based protection.
 
 - 💽 **MongoDB Integration**  
-  Store and manage user, product, and order data in a scalable NoSQL database.
+  - Store and manage user, product, and order data in a scalable NoSQL database.
 
 - ⚙️ **Express.js + Node.js Backend API**  
-  RESTful backend architecture for clean data handling and routing.
-
+  - RESTful backend architecture for clean data handling and routing.
+  
 - ⌛ **And a lot more...**
 
 ---
